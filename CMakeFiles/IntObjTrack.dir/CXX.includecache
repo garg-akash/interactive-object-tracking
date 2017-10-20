@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/akash/opencv_workspace/IntObjTrack/IntObjTrack.cpp
+iostream
+-
+sstream
+-
+opencv2/core/core.hpp
+-
+opencv2/highgui/highgui.hpp
+/home/akash/opencv_workspace/IntObjTrack/opencv2/highgui/highgui.hpp
+opencv2/video/video.hpp
+/home/akash/opencv_workspace/IntObjTrack/opencv2/video/video.hpp
+opencv2/imgproc/imgproc.hpp
+/home/akash/opencv_workspace/IntObjTrack/opencv2/imgproc/imgproc.hpp
+opencv2/opencv.hpp
+-
+
